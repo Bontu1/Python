@@ -1,0 +1,5 @@
+A ) SyntaxError: invalid syntax
+B ) ModuleNotFoundError: No module named 'stio'
+C )     stdio.wrie('Hi, ')
+D ) AttributeError: module 'stdio' has no attribute 'wrie'. Did you mean: 'write'? 
+ 
