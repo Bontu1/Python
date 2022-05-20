@@ -1,0 +1,34 @@
+                                   1.2 Built-in Types of Data 
+▻ A data type is a set of values and a set of operations defined on those values. 
+➨ Literals - is a Python-code representation of a data-type value. 
+➨ Operators - is a Python-code representation of a data-type operation .
+➨ Identifiers - is a Python-code representation of a name.  
+     -Identifiers are case-sensitive.
+-Certain keywords—such as and, import, in, def, while, from, and lambda—are reserved, and you cannot use them as identifiers. Other names—such as int, sum, min, max, len, id, file, and input—have special mean￾ing in Python, so it is best not to use them, either 
+➨ Variables - is a name associated with a data-type value. 
+➨ Constant variables - We use the oxymoronic term constant variable to describe a variable whose associated a data-type value does not change during the execution of a program (or from one execution of the program to the next) .
+➨ Expressions -  is a combination of literals, vari￾ables, and operators that Python evaluates to produce a value.  
+  - An expression is a directive to perform a sequence of operations; the ex￾pression is a representation of the resulting value. 
+  - An expression is shorthand for a sequence of operations 
+➨ Assignment statements - How do we define an identifier to be a variable in Python code? How do we associate a variable with a data-type value? In Python, we use an assignment statement for both purposes. 
+-The right side of an assignment statement can be any expression .
+short, the meaning of = in a program is decidedly not the same as in a mathematical equation. 
+❖ Informal trace - An effective way to keep track of the val￾ues associated with variables is to use a table like the one at right, with one line giving the values after each statement has been executed. 
+❖ Objects - All data values in a Python program are represented by objects and rela￾tionships among objects. 
+- An object is an in-computer-memory representation of a value from a particular data type.  -Each object is characterized by its identity, type, and value.
+• The identity uniquely identifies an object. You should think of it as the location in the computer’s memory (or memory address) where the object is stored.
+• The type of an object completely specifies its behavior—the set of values it might represent and the set of operations that can be performed on it.
+• The value of an object is the data-type value that it represents.
+❖  An object reference is nothing more than a concrete representa￾tion of the object’s identity (the memory address where the object is stored). Py￾thon programs use object references either to access the object’s value or to ma￾nipulate the object references themselves.
+❖ Formal object-based definitions.
+• A literal is a directive to Python to create an object having the specified value.
+• A variable is a name for an object reference. We use diagrams like the one at right to show the binding of a variable to an object.
+• An expression is a directive to Python to perform the indicated operations, producing an object having the value defined by the expression.
+• An assignment statement is a directive to Python to bind the variable on the left side of the = operator to the object produced by evaluating the expression on the right side (regardless of the object, if any, to which the variable was previously b 
+❖ Strings - The str data type represents strings, for use in text processing. The value of a str object is a sequence of characters. You can specify a str literal by enclosing a sequence of characters in matching single quotes. 
+- use a backslash to specify characters that oth￾erwise would have special meaning.  
+- you can concatenate two strings using the operator +.  
+❖ Converting numbers to strings for output
+                     stdio.writeln(str(a) + ' + ' + str(b) + ' = ' + str(a+b)) 
+
+
