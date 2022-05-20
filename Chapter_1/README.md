@@ -5,7 +5,7 @@ Programming in python - To program in python there are two steps:
    1 . Compose a program - by typing in a file named by .py.
    2 . Run (excute) - refers to the combinition of compiling and interpreting a program.
 
-   In python a **comment** is begins with **#**. 
+   In python a **comment** is begins with **#** . 
 
    ***_Compile-time-error_** - raised when python compiles the program because they prevent the compiler from doing the translation. Reported as **SYNTAX-ERROR.**
 
