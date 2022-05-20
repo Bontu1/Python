@@ -1,0 +1,24 @@
+  1.1 Your First Program 
+~The Python system (hereafter abbreviated Python) is a collection of applications, not 
+unlike many of the other applications that you are accustomed to using (such as your 
+word processor, email program, and web browser).
+-A Python program consists of statements.
+Programming in Python - In python programming has two steps 
+* Compose a program by typing it into a file named, say,myprogram.py.
+- start with a blank screen and ends with a sequence of typed characters onn the screen.
+* Run(excute) - -it is by typing python myprogram.py in the terminal windows.
+- Once you compose the program, you can run (or execute) it.
+-  term executing or running to refer to the combination of compiling and interpreti a program.
+
+~Programmers use the term code to refer to program text and the term coding to refer to 
+the act of creating and editing the code.
+
+~Python ignores blank lines; programmers use them to separate logical blocks of code.
+~In Python a comment begins with the '#' character.
+~We call a function in another module by writing the module name, followed by a period, followed by the function name.
+
+*Errors - It is easy to blur the distinction among editing, compiling, and interpreting programs.
+         ~Compile-time errors, are raised when Python compiles the program, because they prevent the compiler from doing the 
+          translation. Python reports a compile-time error as a SyntaxError.
+         ~run-time errors, are not raised until Python interprets the program.
+~Errors in programs, also commonly known as bugs.
