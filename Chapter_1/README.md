@@ -1,6 +1,6 @@
 ---
-##<span style="color:blue">Chapter 1</span>
-##1.1 your first program
+## <span style="color:blue">Chapter 1</span>
+## 1.1 your first program
 Programming in python - To program in python there are two steps:
    1 . Compose a program - by typing in a file named by .py.
    2 . Run (excute) - refers to the combinition of compiling and interpreting a program.
